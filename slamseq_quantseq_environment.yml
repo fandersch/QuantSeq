@@ -1,0 +1,32 @@
+name: slamseq_quantseq
+
+channels:
+  - bioconda
+  - conda-forge
+  - r
+  - defaults
+
+dependencies:
+  - fastqc=0.12.1
+  - trim-galore=4.11
+  - umi_tools=1.1.5
+  - multiqc=1.19
+  - slamdunk=0.4.3
+  - subread=2.0.6
+  - r-base
+  - r-performanceanalytics
+  - bioconductor-deseq2
+  - bioconductor-apeglm
+  - bioconductor-org.hs.eg.db
+  - bioconductor-org.mm.eg.db
+  - r-ggrepel
+  - r-pheatmap
+  - bioconductor-enhancedvolcano
+  - r-gridextra
+  - r-rcolorbrewer
+  - r-tidyverse
+  - r-kernsmooth
+  - r-matrixstats
+  - bioconductor-annotate
+  - bioconductor-edger
+  - r-cluster
